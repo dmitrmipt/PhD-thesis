@@ -54,7 +54,7 @@ sorting=none,% настройка сортировки списка литера
 }{}
 
 %%% Подключение файлов bib %%%
-\addbibresource[label=other]{biblio/othercites.bib}
+\addbibresource[label=other]{biblio/Bibl_lib.bib}
 \addbibresource[label=vak]{biblio/authorpapersVAK.bib}
 \addbibresource[label=papers]{biblio/authorpapers.bib}
 \addbibresource[label=conf]{biblio/authorconferences.bib}
@@ -70,6 +70,7 @@ sorting=none,% настройка сортировки списка литера
             \step[fieldset=language, null]
         }
         \map[overwrite, refsection=0]{% стираем значения всех полей addendum
+            \perdatasource{biblio/Bibl_lib.bib.bib}
             \perdatasource{biblio/authorpapersVAK.bib}
             \perdatasource{biblio/authorpapers.bib}
             \perdatasource{biblio/authorconferences.bib}
@@ -100,7 +101,7 @@ sorting=none,% настройка сортировки списка литера
             final]
         }
         \map[overwrite]{ % добавляем ключевые слова, чтобы различать источники
-            \perdatasource{biblio/othercites.bib}
+            \perdatasource{biblio/Bibl_lib.bib}
             \step[fieldset=keywords, fieldvalue={biblioother,bibliofull}]
         }
         \map[overwrite]{ % добавляем ключевые слова, чтобы различать источники
