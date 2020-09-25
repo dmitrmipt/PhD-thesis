@@ -1,0 +1,50 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'synopsis.blg'
+[30] biber-MSWIN64:313> INFO - === 
+[129] Biber.pm:371> INFO - Reading 'synopsis.bcf'
+[285] Biber.pm:857> INFO - Found 32 citekeys in bib section 0
+[285] Biber.pm:857> INFO - Found 7 citekeys in bib section 1
+[285] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[285] Biber.pm:857> INFO - Found 6 citekeys in bib section 2
+[285] Biber.pm:857> INFO - Found 7 citekeys in bib section 0
+[311] Biber.pm:3976> INFO - Processing section 0
+[323] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/Bibl_lib.bib' for section 0
+[333] bibtex.pm:1490> INFO - LaTeX decoding ...
+[503] bibtex.pm:1306> INFO - Found BibTeX data source 'biblio/Bibl_lib.bib'
+[507] Utils.pm:193> WARN - Duplicate entry key: 'astafiev2007single' in file 'biblio/Bibl_lib.bib', skipping ...
+[508] Utils.pm:193> WARN - Duplicate entry key: 'blais2004cavity' in file 'biblio/Bibl_lib.bib', skipping ...
+[508] Utils.pm:193> WARN - Duplicate entry key: 'castellanos2008amplification' in file 'biblio/Bibl_lib.bib', skipping ...
+[512] Utils.pm:193> WARN - Duplicate entry key: 'macklin2015near' in file 'biblio/Bibl_lib.bib', skipping ...
+[512] Utils.pm:193> WARN - Duplicate entry key: 'castellanos2008amplification' in file 'biblio/Bibl_lib.bib', skipping ...
+[806] Utils.pm:193> WARN - month field 'Jul' in entry 'Toyli2016ResSqueez' is not an integer - this will probably not sort properly.
+[815] Utils.pm:193> WARN - month field 'Oct' in entry 'Wallraff_entangledPhotons' is not an integer - this will probably not sort properly.
+[843] Utils.pm:193> WARN - month field 'Dec' in entry 'Mollow' is not an integer - this will probably not sort properly.
+[866] Utils.pm:193> WARN - month field 'Nov' in entry 'ATS_3LS' is not an integer - this will probably not sort properly.
+[870] Utils.pm:193> WARN - month field 'Jul' in entry 'Chiral' is not an integer - this will probably not sort properly.
+[892] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 0
+[897] bibtex.pm:1490> INFO - LaTeX decoding ...
+[908] bibtex.pm:1306> INFO - Found BibTeX data source 'biblio/authorpapersVAK.bib'
+[951] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[951] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[951] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[951] Biber.pm:3810> INFO - No sort tailoring available for locale 'ru-RU'
+[994] Biber.pm:3976> INFO - Processing section 1
+[994] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 1
+[1049] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/authorpapers.bib' for section 1
+[1056] bibtex.pm:1490> INFO - LaTeX decoding ...
+[1077] bibtex.pm:1306> INFO - Found BibTeX data source 'biblio/authorpapers.bib'
+[1100] Utils.pm:193> WARN - Range field 'volume' in entry 'confbib3' is malformed, falling back to literal
+[1117] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1117] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1117] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1117] Biber.pm:3810> INFO - No sort tailoring available for locale 'ru-RU'
+[1125] Biber.pm:3976> INFO - Processing section 2
+[1125] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 2
+[1158] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio/authorpapers.bib' for section 2
+[1189] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1189] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1189] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1189] Biber.pm:3810> INFO - No sort tailoring available for locale 'ru-RU'
+[1195] bbl.pm:617> INFO - Writing 'synopsis.bbl' with encoding 'UTF-8'
+[1221] bbl.pm:720> INFO - Output to synopsis.bbl
+[1255] Biber.pm:110> INFO - WARNINGS: 11

@@ -1,0 +1,150 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'dissertation.blg'
+[80] biber-MSWIN64:322> INFO - === 
+[114] Biber.pm:415> INFO - Reading 'dissertation.bcf'
+[303] Biber.pm:943> INFO - Found 32 citekeys in bib section 0
+[303] Biber.pm:943> INFO - Found 7 citekeys in bib section 1
+[304] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[304] Biber.pm:943> INFO - Found 6 citekeys in bib section 2
+[317] Biber.pm:943> INFO - Found 119 citekeys in bib section 0
+[376] Biber.pm:4256> INFO - Processing section 0
+[376] Utils.pm:75> INFO - Globbing data source 'biblio/Bibl_lib.bib'
+[390] Utils.pm:91> INFO - Globbed data source 'biblio/Bibl_lib.bib' to biblio/Bibl_lib.bib
+[390] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapersVAK.bib'
+[390] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapersVAK.bib' to biblio/authorpapersVAK.bib
+[391] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapers.bib'
+[391] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapers.bib' to biblio/authorpapers.bib
+[391] Utils.pm:75> INFO - Globbing data source 'biblio/authorconferences.bib'
+[391] Utils.pm:91> INFO - Globbed data source 'biblio/authorconferences.bib' to biblio/authorconferences.bib
+[411] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/Bibl_lib.bib' for section 0
+[435] bibtex.pm:1653> INFO - LaTeX decoding ...
+[895] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/Bibl_lib.bib'
+[900] Utils.pm:304> WARN - Duplicate entry key: 'astafiev2007single' in file 'biblio/Bibl_lib.bib', skipping ...
+[901] Utils.pm:304> WARN - Duplicate entry key: 'blais2004cavity' in file 'biblio/Bibl_lib.bib', skipping ...
+[904] Utils.pm:304> WARN - Duplicate entry key: 'castellanos2008amplification' in file 'biblio/Bibl_lib.bib', skipping ...
+[913] Utils.pm:304> WARN - Duplicate entry key: 'macklin2015near' in file 'biblio/Bibl_lib.bib', skipping ...
+[914] Utils.pm:304> WARN - Duplicate entry key: 'castellanos2008amplification' in file 'biblio/Bibl_lib.bib', skipping ...
+[1246] Utils.pm:304> WARN - month field 'Jul' in entry 'Toyli2016ResSqueez' is not an integer - this will probably not sort properly.
+[1257] Utils.pm:304> WARN - month field 'Oct' in entry 'Wallraff_entangledPhotons' is not an integer - this will probably not sort properly.
+[1273] Utils.pm:304> WARN - month field 'Nov' in entry 'CooperPairs' is not an integer - this will probably not sort properly.
+[1287] Utils.pm:304> WARN - month field 'Jul' in entry 'FluxQuant' is not an integer - this will probably not sort properly.
+[1291] Utils.pm:304> WARN - month field 'Nov' in entry 'GiaeverGap' is not an integer - this will probably not sort properly.
+[1300] Utils.pm:304> WARN - month field 'Mar' in entry 'StatJosephsonExp' is not an integer - this will probably not sort properly.
+[1306] Utils.pm:304> WARN - month field 'Jan' in entry 'LikharevWL' is not an integer - this will probably not sort properly.
+[1312] Utils.pm:304> WARN - month field 'Apr' in entry 'CPhiR_review' is not an integer - this will probably not sort properly.
+[1431] Utils.pm:304> WARN - month field 'May' in entry 'transmon' is not an integer - this will probably not sort properly.
+[1487] Utils.pm:304> WARN - month field 'May' in entry 'Boller_EIT' is not an integer - this will probably not sort properly.
+[1501] Utils.pm:304> WARN - month field 'May' in entry 'Abdumalikov_EIT' is not an integer - this will probably not sort properly.
+[1517] Utils.pm:304> WARN - month field 'Jun' in entry 'Baur' is not an integer - this will probably not sort properly.
+[1534] Utils.pm:304> WARN - month field 'Nov' in entry 'ATS_3LS' is not an integer - this will probably not sort properly.
+[1561] Utils.pm:304> WARN - month field 'Aug' in entry 'ATS_3D_transmon' is not an integer - this will probably not sort properly.
+[1574] Utils.pm:304> WARN - month field 'Aug' in entry 'single-photon-router' is not an integer - this will probably not sort properly.
+[1593] Utils.pm:304> WARN - month field 'Aug' in entry 'Delsing-giant-Kross-Kerr' is not an integer - this will probably not sort properly.
+[1628] Utils.pm:304> WARN - month field 'May' in entry 'Vetsch2010' is not an integer - this will probably not sort properly.
+[1642] Utils.pm:304> WARN - month field 'Jul' in entry 'Goban2012fibertrap' is not an integer - this will probably not sort properly.
+[1658] Utils.pm:304> WARN - month field 'Aug' in entry 'Arcari2014NearUnity' is not an integer - this will probably not sort properly.
+[1680] Utils.pm:304> WARN - month field 'Jan' in entry 'Gerhard2007moleculeExt' is not an integer - this will probably not sort properly.
+[1695] Utils.pm:304> WARN - month field 'Jun' in entry 'CarmichaelSqueezedFluor' is not an integer - this will probably not sort properly.
+[1705] Utils.pm:304> WARN - month field 'May' in entry 'Astafiev-quantum-amplifier' is not an integer - this will probably not sort properly.
+[1722] Utils.pm:304> WARN - month field 'May' in entry 'Strongly1D' is not an integer - this will probably not sort properly.
+[1730] Utils.pm:304> WARN - month field 'Nov' in entry 'Shaped_SPS' is not an integer - this will probably not sort properly.
+[1740] Utils.pm:304> WARN - month field 'Aug' in entry 'Pechal2016switch' is not an integer - this will probably not sort properly.
+[1748] Utils.pm:304> WARN - month field 'Mar' in entry 'ZhouHighEfficiency' is not an integer - this will probably not sort properly.
+[1764] Utils.pm:304> WARN - month field 'Oct' in entry 'PechalShaped' is not an integer - this will probably not sort properly.
+[1803] Utils.pm:304> WARN - month field 'Apr' in entry 'BesseQNDphoton' is not an integer - this will probably not sort properly.
+[1811] Utils.pm:304> WARN - month field 'Oct' in entry 'daSilvaSchemes' is not an integer - this will probably not sort properly.
+[1823] Utils.pm:304> WARN - month field 'Jun' in entry 'hoi2012generation' is not an integer - this will probably not sort properly.
+[1832] Utils.pm:304> WARN - month field 'Jun' in entry 'EichlerTomography' is not an integer - this will probably not sort properly.
+[1859] Utils.pm:304> WARN - month field 'Jan' in entry 'LOQCreview' is not an integer - this will probably not sort properly.
+[1913] Utils.pm:304> WARN - month field 'Jul' in entry 'JJ_capacitance' is not an integer - this will probably not sort properly.
+[1936] Utils.pm:304> WARN - month field 'jan' in entry 'Meschke2004' is not an integer - this will probably not sort properly.
+[1944] Utils.pm:304> WARN - month field 'jan' in entry 'Longobardi2013' is not an integer - this will probably not sort properly.
+[1994] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 0
+[1999] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2011] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/authorpapersVAK.bib'
+[2046] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapers.bib' for section 0
+[2051] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2067] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/authorpapers.bib'
+[2067] Utils.pm:304> WARN - Duplicate entry key: 'vakbib1' in file 'biblio/authorpapers.bib', skipping ...
+[2067] Utils.pm:304> WARN - Duplicate entry key: 'vakbib2' in file 'biblio/authorpapers.bib', skipping ...
+[2067] Utils.pm:304> WARN - Duplicate entry key: 'vakbib3' in file 'biblio/authorpapers.bib', skipping ...
+[2067] Utils.pm:304> WARN - Duplicate entry key: 'vakbib4' in file 'biblio/authorpapers.bib', skipping ...
+[2081] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorconferences.bib' for section 0
+[2086] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2094] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/authorconferences.bib'
+[2094] Utils.pm:304> WARN - Duplicate entry key: 'confbib1' in file 'biblio/authorconferences.bib', skipping ...
+[2094] Utils.pm:304> WARN - Duplicate entry key: 'confbib2' in file 'biblio/authorconferences.bib', skipping ...
+[2098] Utils.pm:304> WARN - I didn't find a database entry for 'Sokolov' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Gaidaenko' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Lermontov' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Management' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Borozda' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Marketing' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'Constitution' (section 0)
+[2099] Utils.pm:304> WARN - I didn't find a database entry for 'FamilyCode' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Gost.7.0.53' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Razumovski' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Lagkueva' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Pokrovski' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Sirotko' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Lukina' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Methodology' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Encyclopedia' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Nasirova' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Berestova' (section 0)
+[2100] Utils.pm:304> WARN - I didn't find a database entry for 'Kriger' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Article' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Book' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Booklet' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Conference' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Inbook' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Incollection' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Manual' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Mastersthesis' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Misc' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Phdthesis' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Proceedings' (section 0)
+[2101] Utils.pm:304> WARN - I didn't find a database entry for 'Techreport' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'Unpublished' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'medvedev2006jelektronnye' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'CEAT:CEAT581' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'doi:10.1080/01932691.2010.513279' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'Gosele1999161' (section 0)
+[2102] Utils.pm:304> WARN - I didn't find a database entry for 'Li2007StressAnalysis' (section 0)
+[2103] Utils.pm:304> WARN - I didn't find a database entry for 'Shoji199895' (section 0)
+[2103] Utils.pm:304> WARN - I didn't find a database entry for 'test:eisner-sample' (section 0)
+[2103] Utils.pm:304> WARN - I didn't find a database entry for 'AB_patent_Pomerantz_1968' (section 0)
+[2103] Utils.pm:304> WARN - I didn't find a database entry for 'iofis_patent1960' (section 0)
+[2225] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2225] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2226] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[2226] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[2380] Biber.pm:4256> INFO - Processing section 1
+[2380] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapersVAK.bib'
+[2380] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapersVAK.bib' to biblio/authorpapersVAK.bib
+[2380] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapers.bib'
+[2380] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapers.bib' to biblio/authorpapers.bib
+[2381] Utils.pm:75> INFO - Globbing data source 'biblio/authorconferences.bib'
+[2381] Utils.pm:91> INFO - Globbed data source 'biblio/authorconferences.bib' to biblio/authorconferences.bib
+[2381] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 1
+[2427] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapers.bib' for section 1
+[2466] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2466] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2466] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[2466] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[2483] Biber.pm:4256> INFO - Processing section 2
+[2483] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapersVAK.bib'
+[2484] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapersVAK.bib' to biblio/authorpapersVAK.bib
+[2484] Utils.pm:75> INFO - Globbing data source 'biblio/authorpapers.bib'
+[2484] Utils.pm:91> INFO - Globbed data source 'biblio/authorpapers.bib' to biblio/authorpapers.bib
+[2484] Utils.pm:75> INFO - Globbing data source 'biblio/authorconferences.bib'
+[2485] Utils.pm:91> INFO - Globbed data source 'biblio/authorconferences.bib' to biblio/authorconferences.bib
+[2485] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapersVAK.bib' for section 2
+[2532] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/authorpapers.bib' for section 2
+[2571] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2571] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2572] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[2572] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[2582] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[2716] bbl.pm:755> INFO - Output to dissertation.bbl
+[2717] Biber.pm:128> INFO - WARNINGS: 87
