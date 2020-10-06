@@ -130,7 +130,7 @@
            given={Yuriy},
            giveni={Y\bibinitperiod}}}%
         {{hash=05c1fd4b2e87125d02c1828ca4aa5dad}{%
-           family={Sch{ö}hn},
+           family={Schöhn},
            familyi={S\bibinitperiod},
            given={Gerd},
            giveni={G\bibinitperiod}}}%
@@ -619,7 +619,7 @@
            given={Andrew\bibnamedelima W},
            giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
         {{hash=732e1e5347aca38612688cdc9d4de3f5}{%
-           family={C{ó}rcoles},
+           family={Córcoles},
            familyi={C\bibinitperiod},
            given={AD},
            giveni={A\bibinitperiod}}}%
@@ -1392,17 +1392,17 @@
            given={Michael},
            giveni={M\bibinitperiod}}}%
         {{hash=76a9a8c405833ac893987b6f31806b98}{%
-           family={Andr{é}},
+           family={André},
            familyi={A\bibinitperiod},
            given={Stephan},
            giveni={S\bibinitperiod}}}%
         {{hash=e0c6489e7e0a35c60587d6aae55094fc}{%
-           family={Sch{ö}n},
+           family={Schön},
            familyi={S\bibinitperiod},
            given={Gerd},
            giveni={G\bibinitperiod}}}%
         {{hash=d1013f494a34aa0da561956575705e22}{%
-           family={H{ü}bner},
+           family={Hübner},
            familyi={H\bibinitperiod},
            given={Uwe},
            giveni={U\bibinitperiod}}}%
@@ -2650,7 +2650,7 @@
            giveni={A\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {PhD Thesis, Universit{é} Paris 6}%
+        {PhD Thesis, Université Paris 6}%
       }
       \strng{namehash}{940a7f1e567905756cd67545d3aaae2e}
       \strng{fullhash}{940a7f1e567905756cd67545d3aaae2e}
@@ -2838,7 +2838,7 @@
       \true{moreauthor}
       \name{author}{10}{}{%
         {{hash=50f64ed0e67a802def2ebccd7a6c50ec}{%
-           family={Gr{ü}nhaupt},
+           family={Grünhaupt},
            familyi={G\bibinitperiod},
            given={Lukas},
            giveni={L\bibinitperiod}}}%
@@ -3407,7 +3407,7 @@
            given={Raymond\bibnamedelima W},
            giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
         {{hash=e3a0b9c94c2f9b2379f553503dc4f93e}{%
-           family={Sillanp{ä}{ä}},
+           family={Sillanpää},
            familyi={S\bibinitperiod},
            given={Mika\bibnamedelima A},
            giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
@@ -3721,7 +3721,7 @@
     \entry{martin2010resonance}{article}{useauthor=false}
       \name{author}{4}{}{%
         {{hash=10703078d53195c9927523165141b5cd}{%
-           family={Mart{ı́}n-Cano},
+           family={Martı́n-Cano},
            familyi={M\bibinithyphendelim C\bibinitperiod},
            given={Diego},
            giveni={D\bibinitperiod}}}%
@@ -5068,7 +5068,7 @@
            given={Johannes},
            giveni={J\bibinitperiod}}}%
         {{hash=73c93856284a6656dec13366fe877181}{%
-           family={Salath{é}},
+           family={Salathé},
            familyi={S\bibinitperiod},
            given={Yves},
            giveni={Y\bibinitperiod}}}%
@@ -5188,7 +5188,7 @@
            given={Arkady},
            giveni={A\bibinitperiod}}}%
         {{hash=867ec34c806790671b33f2746ac0acc5}{%
-           family={Lalumi{è}re},
+           family={Lalumière},
            familyi={L\bibinitperiod},
            given={Kevin},
            giveni={K\bibinitperiod}}}%
@@ -5390,7 +5390,7 @@
            given={Anton\bibnamedelima Frisk},
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
         {{hash=0c68e5cf6ea797927d61c45010fb0fba}{%
-           family={Braum{ü}ller},
+           family={Braumüller},
            familyi={B\bibinitperiod},
            given={Jochen},
            giveni={J\bibinitperiod}}}%
@@ -6049,6 +6049,104 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
+    \entry{Schneider2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8c3cfac956dec05fe418c40965ef2f34}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c3cfac956dec05fe418c40965ef2f34}
+      \strng{fullhash}{8c3cfac956dec05fe418c40965ef2f34}
+      \strng{bibnamehash}{8c3cfac956dec05fe418c40965ef2f34}
+      \strng{authorbibnamehash}{8c3cfac956dec05fe418c40965ef2f34}
+      \strng{authornamehash}{8c3cfac956dec05fe418c40965ef2f34}
+      \strng{authorfullhash}{8c3cfac956dec05fe418c40965ef2f34}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{Quantum state tomography and benchmarking on superconducting qubits}}
+      \field{year}{2015}
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{jeffrey2014fast}{article}{useauthor=false}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=9900c4e96164131afb8af307845df9b8}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5a77e82e7902840db5b1f11ad325b7aa}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={JY},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={TC},
+           giveni={T\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{authorbibnamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{authornamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{authorfullhash}{869915f35a896ce2ba8ff1b4245b24ca}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{langid}{english}
+      \field{title}{Fast accurate state measurement with superconducting qubits}
+      \field{year}{2014}
+      \field{number}{19}
+      \range{number}{1}
+      \field{pages}{190504}
+      \range{pages}{1}
+      \field{volume}{112}
+      \range{volume}{1}
+      \keyw{biblioother,bibliofull}
+    \endentry
     \entry{boyd2003nonlinear}{book}{}
       \name{author}{1}{}{%
         {{hash=5deda664a6cf03ea0cb9cb40c827addd}{%
@@ -6098,8 +6196,8 @@
       \strng{authorbibnamehash}{4c2f5690a1a9c9d0a7bb5f36123327ab}
       \strng{authornamehash}{4c2f5690a1a9c9d0a7bb5f36123327ab}
       \strng{authorfullhash}{4c2f5690a1a9c9d0a7bb5f36123327ab}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
