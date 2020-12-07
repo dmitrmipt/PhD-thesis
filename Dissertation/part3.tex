@@ -127,14 +127,33 @@ E_n = A_n e^{-i(\omega_nt - k_nx)} + \text{c.c.},
 \end{equation}
 Точка в этом уравнении обозначает производную по $\tau$.
 Для поиска решения можно разложить вектор коррелляций в сумму медленно меняющихся компонент:
-\begin{equation}
-\mathbf{\Phi} = \sum_{l=-\infty}^{\infty}\mathbf{\Phi}^{(l)}e^{-il\delta (t+\tau),}
+\begin{equation}\label{eq: floquet}
+\mathbf{\Phi} = \sum_{l=-\infty}^{\infty}\mathbf{\Phi}^{(l)}e^{-i(2l+1)\delta\omega (t+\tau),}
 \end{equation}
 а затем представить каждую компоненту $\mathbf{\Phi}^{(l)}$ через преобразование Лапласа для переменной $z=i(\omega-\omega_q)$. При этом получаются рекурсивные соотношения специального вида:
-\begin{equation}
+\begin{equation}\label{eq: corr_rec}
 A_l\Phi^{(l)}_3+B_l\Phi^{(l-1)}_3 + C_l\Phi_3 ^{(l+1)} = D_l,
 \end{equation}
-где константы $A_l-D_l$ зависят от $z$ как от переменной, от частоты Раби, констант релаксации и дефазировки как от параметров, а также от значений коррелляторов в момент $\tau=0$. 
+где константы $A_l-D_l$ зависят от $z$ как от переменной, от частоты Раби, констант релаксации и дефазировки как от параметров, а также от значений коррелляторов в момент $\tau=0$. Последние, в свою очередь, однозначно определяются средними значениями компонент блоховского вектора:
+\begin{equation}
+\begin{split}
+\Phi_1^{(l)}(t=0) &= \exp(il\delta\omega t)\left(\frac{1}{2}+\frac{1}{2}\!\braket{\sigma_z(t)} - \braket{\sigma_-(t)}\!\braket{\sigma_+(t)}\right) \\
+\Phi_2^{(l)}(t=0) &= -\exp(il\delta\omega t)\braket{\sigma_-(t)}^2 \\
+\Phi_3^{(l)}(t=0) &= -\exp(il\delta\omega t)\braket{\sigma_-(t)}\left(1+\braket{\sigma_z(t)}\right) \\
+\end{split}
+\end{equation}
+Эластичная часть спектра $S_{el}(\omega)$ определяется как фурье-образ корреллятора $\braket{\sigma_+(t+\tau)}\braket{\sigma_-(t)}$. Для нахождения этого спектра удобно записать для компонент спина разложение по периодическим компонентам, идентичные \eqref{eq: floquet}:
+\begin{equation}
+\braket{\vec{\sigma}}  = \sum_{l=-\infty}^{\infty}\braket{\vec{\sigma}^{(l)}}\exp(-i(2l+1)\delta\omega t)
+\end{equation} и рекуррентные соотношения по типу \eqref{eq: corr_rec}. При этом получаем
+\begin{equation}
+S_{el}(\omega) = \sum_{l=-\infty}^{\infty}\delta(\omega-\omega_q+(2l+1)\delta\omega)|\!\braket{\sigma_-^{(l)}}\!|^2
+\end{equation}
+В работе \cite{Ryuten} рекурсивные соотношения для различных компонент спина были решены с помощью метода бесконечных дробей. При этом для случая равных и симметрично расположенных относительно кубита компонент внешнего поля, а также при достаточно медленной релаксации, можно получить следующее выражение:
+\begin{equation}
+\braket{\sigma_-^{(l)}} = \frac{J_0(x)J_{2l+1}(x)}{2+\Gamma_2/\Gamma_1(1-J_0(2x))},
+\end{equation}
+где $x=2\Omega/\delta\omega$
 \section{Спектр эластичного рассеяния в случае $\delta \ll \Gamma_1$}
 кратко поясняем почему они есть, мб ссылки на литературу
 \section{Приближение малой отстройки}
