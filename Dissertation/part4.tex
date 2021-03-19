@@ -26,7 +26,7 @@
 \end{equation} 
 что соответствует экспериментально представленным зависимостям на Рис.~\ref{fig: Bessels}. Данный результат можно представить как разложение осцилляций Раби, которые наблюдались бы при $\delta\omega =0$, по разным спектральным компонентам.
 
-Результат \eqref{sclass_spectr} не требует квантовомеханического описания поля, но тем не менее, мы получим его также при помощи рассмотрения эволюции кубита под воздействием двух квантованных мод поля, описывающихся операторами $a_\pm$ и $a_\pm^\dag$, взаимодействующих с кубитом. Как мы увидим далее, этот формализм позволяет описать не только случай синхронных импульсов, характеризующийся рассмотренной выше бесселевской динамикой, но и случай последовательных неперекрывающихся во времени импульсов, где спектр кардинально отличается от рассмотренного выше режима. Для начала, выпишем и обсудим несколько известных результатов для одной моды и кубита. 
+Вывод результата \eqref{sclass_spectr} достаточно прост и не требует квантовомеханического описания поля, но тем не менее, он не иллюстрирует сущность наблюдаемого волнового смешения, в частности, не выделяет индивидуальный вклад различных многофотонных процессов в излучение и связь с фотонной статистикой излучаемого света. Более того, полуклассическая картина не выявляет физического происхождения ограниченного количества спектральных компонент, которые мы будем наблюдать для случая квантового волнового смешения двух последовательностей импульсов бихроматической накачки с задержкой. Поэтому мы получим бесселевскую динамику также при помощи рассмотрения эволюции кубита под воздействием двух квантованных мод поля, описывающихся операторами $a_\pm$ и $a_\pm^\dag$, взаимодействующих с кубитом. Как мы увидим далее, этот формализм позволяет описать не только случай синхронных импульсов, характеризующийся рассмотренной выше бесселевской динамикой, но и случай последовательных неперекрывающихся во времени импульсов, где спектр кардинально отличается от рассмотренного выше режима. Для начала, выпишем и обсудим несколько известных результатов, касающихся взаимодействия для одной моды внутри волновода и кубита, связанного с этим волноводомё. 
 
 Будем рассматривать двухуровневый атом с основным и возбужденными состояниями $\ket{g}$ и $\ket{e}$ и энергией $\hbar \omega_0$, взаимодействующий с квантованным полем на частоте $\omega$. Эта система может характеризоваться гамильтонианом, записанным в представлении взаимодействия:
 \begin{equation}
@@ -81,46 +81,46 @@ $\Psi(t') \approx (\cos\frac{\theta}{2} |g\rangle - e^{-i\delta\omega t}\sin \fr
 	\label{sp}
 \end{equation}
 
-The superposed system (at $\theta \neq M \pi$, where $M$ is an integer number) acquires phase $\delta\omega t$ from the incident coherent wave \cite{Astafiev2010resonance,abdumalikov2011dynamics} and then generates a superposed single-photon state. 
+Атом, находящийся в состоянии суперпозиции (при $\theta \neq M \pi$, где $M$ это целое число) приобретает фазу $\delta\omega t$ из начальной когерентной волны \cite{Astafiev2010resonance,abdumalikov2011dynamics} и затем излучает в волновод суперпозицию нуля и одного фотона. 
 %This can be exemplified by analysing the evolution $U(t')\Psi' = (\cos\frac{\theta}{2} |g, 0\rangle - ie^{i\phi}(\sin\frac{\theta}{2}\cos\frac{\theta'}{2} |e, 0\rangle - i\sin\frac{\theta}{2}\sin\frac{\theta'}{2} |g, 1\rangle)$, where $\theta' = 4 g t'$. 
-It is instructive to analyse the evolution of $\Psi'$ (from Supplementary Eq. (\ref{Rb2})) under the operator from Supplementary Eq. (\ref{ut}). When the accumulated angle $\eta = \frac{\pi}{2}$, % $U_{ap} = 1-i (s^- a^\dag+s^+ a)$ 
+Полезно проанализировать эволюцию состояния $\Psi'$ из уравнения \eqref{Rb2} под действием оператора (\ref{ut}). Когда накопленный угол $\eta = \frac{\pi}{2}$, % $U_{ap} = 1-i (s^- a^\dag+s^+ a)$ 
 \begin{equation}
 	U_{ap} = |0\rangle\langle0| \sigma^-\sigma^+ + e^{i\delta\omega t} |1\rangle\langle 0 | \sigma^-
 	\label{Uap}
 \end{equation} 
-and the atomic superposition is converted into the superposition of a single-photon field at frequency $\omega$ according to    
+и суперпозиция атомного состояния перетекает в суперпозицию однофотонного поля на частоте $\omega$ следующим образом:    
 \begin{equation}
 	%\begin{split}
 	U_{ap} \bigg[ \bigg(\cos{\frac{\theta}{2}} |g\rangle - e^{-i\delta\omega t} \sin{\frac{\theta}{2}} |e\rangle\bigg) \otimes |0\rangle \bigg] =  
 	|g\rangle \otimes \bigg(\cos{\frac{\theta}{2}} |0\rangle - \sin{\frac{\theta}{2}} |1\rangle\bigg).
 	\label{sps}
 \end{equation} 
-We introduce single-photon creation operator $b^+ = |1\rangle\langle0|$  at frequency $\omega$ and then
+Мы введем однофотонный оператор рождения $b^+ = |1\rangle\langle0|$  на частоте $\omega$ и тогда
 \begin{equation}
 	\langle b^+\rangle = -\frac{1}{2}\sin\theta. 
 	\label{bp}
 \end{equation}
-Supplementary Eqs. (\ref{sp} - \ref{bp}) can now be rewritten using $b$-operators and the important consequence is that the atomic superposition is converted into the coherent single-photon field by substitution $s^+ \rightarrow b^+$. In the more general case, the atomic coherence is mapped on the zero-one photon state according to $s^+ \rightarrow b^+$ and $s^- \rightarrow b^-$, where $b^- = |0\rangle\langle 1|$. 
+Уравнения (\ref{sp} - \ref{bp}) теперь могут быть переписаны при помощи $b$-операторов и важным следствием этого является тот факт, что состояние суперпозиции в атоме переходит в когерентное однофотонное поле при замене $s^+ \rightarrow b^+$ и $s^- \rightarrow b^-$, где введен оператор $b^- = |0\rangle\langle 1|$. 
 
 %Importantly, the generated field is coherent, however essentially different from the classical coherent state $|\alpha \rangle=e^{-{|\alpha|^2}/{2}}\sum_{n=0}^{\infty}\alpha^n /\sqrt{n!} |n\rangle$ and $\alpha = \sqrt{\langle n\rangle}$ consisting of an infinite number of photon states. 
 
-The classical coherent and zero-one states can be repesented in similar forms 
+Классическое когерентное и однофотонное состояния могут быть представлены в похожей форме: 
 \begin{subequations}
 	\begin{alignat}{2}
 		|&\alpha\rangle = & A \bigg( & |0\rangle + \alpha |1\rangle + \frac{\alpha^2}{\sqrt{2!}} + ...\bigg)\\
 		|&\beta\rangle = & B \big( & |0\rangle + \beta |1\rangle\big),
 	\end{alignat}
 \end{subequations}
-where $A=\exp{(-|\alpha|^2/2)}$ and $B=(1+|\beta|^2)^{-1/2}$. Particularly for the coherent photon state in Supplementary Eq.~(\ref{sps}), $\beta = -\tan \theta/2$ and $B=\cos \theta/2$. 
+где $A=\exp{(-|\alpha|^2/2)}$ и $B=(1+|\beta|^2)^{-1/2}$. В частности, для когерентного состояния из уравнения \eqref{sps}, $\beta = -\tan \theta/2$ и $B=\cos \theta/2$. 
 
-The Hamiltonian of Supplementary Eq.~(\ref{Hqint}) can be equivalently rewritten through the single-photon creation/annihilation operators as 
+На основе вышеизложенного, гамильтониан~\eqref{Hqint} может быть эквивалентным образом представлен при помощи однофотонных операторов рождения и уничтожения следующим образом: 
 \begin{equation}
 	H' = i\hbar g (b^+ a - b^- a^\dag),
 	\label{Hqintb}
 \end{equation}
-meaning that $b$-operators describe atomic excitations with phase $\delta\omega t$ and, therefore, satisfy identities similar to  $s$-operators: $b^+b^- = |1\rangle\langle 1|$, $b^-b^+ = |0\rangle\langle 0|$, $b^+b^+ = 0$, $b^-b^- = 0$. 
+подразумевая, что $b$-операторы описывают фотоны, излученные атомом с фазой $\delta\omega t$ и потому удовлетворяют соотношениям, типичным для $s$-операторов: $b^+b^- = |1\rangle\langle 1|$, $b^-b^+ = |0\rangle\langle 0|$, $b^+b^+ = 0$, $b^-b^- = 0$. 
 
-We can simplify Supplementary Eq.~(\ref{ut}) for the case of the strong coherent wave drive as 
+В дополнение, можно упростить уравнение~(\ref{ut}) для случая достаточно коротких импульсов достаточно сильного когерентного поля следующим образом: 
 %\begin{equation}
 %\begin{split}
 %	U(t',t) = \sum_{n=0}^{\infty} &\cos{\big(\eta \sqrt{n}\big)} |n\rangle\langle n| b^-b^+ + \cos{\big(\eta \sqrt{n+1}\big)} |n\rangle\langle n| b^+b^- -\\ 
@@ -139,8 +139,156 @@ We can simplify Supplementary Eq.~(\ref{ut}) for the case of the strong coherent
 	\label{u1}
 \end{equation}
 
+%\begin{equation}
+%\langle b^+_{2k+1} \rangle = \frac{(-1)^k}{2}  J_{2k+1}[2\Omega\Delta t]. 
+%\end{equation}
 
+Вернемся к случаю импульсной бихроматической накачки. Для этого, мы рассматриваем два непрерывных когерентых поля $|\alpha_{-}\rangle_-$ и $|\alpha_{+}\rangle_+$, где $\alpha_{\pm}$ --- действительные комплексные амплитуды поля. Гамильтониан \eqref{Hqintb} принимает вид:
+\begin{equation}
+	%H = \hbar g \sum\limits_{k=0}^{\infty} (\sigma^+ a_{\pm(2k+1)} + \sigma^- a^\dag_{\pm(2k+1)}),
+	%H = \hbar g (\sigma^+ a_{1} + \sigma^+ a_{-1}+c.c.),
+	%H = \hbar g (\sigma^+ a_{1} + \sigma^- a^\dag_{1} + \sigma^+ a_{-1} + \sigma^-a^\dag_{-1}),
+	H_{2} = i\hbar g(s_-^-a^\dag_{-} - s_-^+ a_{-}  + s_+^- a^\dag_{+} + s_+^+ a_{+} ) ,
+	\label{Hm}
+\end{equation}
+где $a^\dag_\pm$ ($a_\pm$) --- операторы рождения (уничтожения) фотона на частотах $\omega_\pm$, $s_+^\pm = \sigma e^{\mp i\delta\omega t}$, $s_-^\pm = \sigma e^{\pm i\delta\omega t}$ и $\hbar g$ обозначает константу связи кубита к модам. Оператор эволюции, соответствующий гамильтониану ~(\ref{Hm}) может быть расписан аналогично уравнению~(\ref{ut}), однако, каждое слагаемое содержит последовательные комбинации операторов $s_\pm^- a^\dag_{\pm}$ и $s_\pm^+ a_{\pm}$. Мы можем переписать гамильтониан через $b$-операторы при помощи подстановки $s_\pm^+ \rightarrow b_\pm^+$ and $s_\pm^- \rightarrow b_\pm^-$,  
+\begin{equation}
+	H = i \hbar g\big(b_-^+ a_{-}  - b_-^-a^\dag_{-} + b_+^+ a_{+} - b^-_+ a^\dag_{+} \big),
+	\label{Hmb}
+\end{equation}
+где $b_\pm^\pm$ описывают возбуждение/релаксацию атома с фазой $\pm\delta\omega t$. Оператор эволюции $U(t',t) = \exp(-\frac{i}{\hbar} H_{t}\Delta t)$ может быть переписан в тензорной форме:  
+\begin{equation}
+	\begin{split}
+		U =1 + \eta (b^-_m a^\dag_m - b^+_m a_m)  &- \frac{\eta^2}{2!}(b^+_m b^-_j a_m a^\dag_j + b^-_m b^+_j a_m^{\dag} a_j) + \\
+		&+ \frac{\eta^3}{3!} (b^-_{m-j+p} a^\dag_m a_j a^\dag_p - b^+_{m-j+p} a_m a_j^{\dag} a_p) +...,
+	\end{split}
+	\label{ut2}
+\end{equation}
+где индексы принимают значения $\pm 1$. Мы опираемся на соотношения $b^+_m b^-_j b^+_p = b^+_{m-j+p}$ потому что $b$-операторы должны удовлетворять таким же соотношениям, как и $s$-операторы: $s_m^+ s_j^- s_p^+ = e^{-i m\delta\omega t}\sigma^+ e^{i j\delta\omega t}\sigma^- e^{-i p\delta\omega t}\sigma^+ = e^{-i (m-j+p)\delta\omega t}\sigma^+ = s_{m-j+p}^+$. Здесь мы расширили определения  $s$-операторов произвольной $l$-моды: $s_l^\pm = e^{\mp i l\delta\omega t} \sigma^\pm$. К примеру, это означает, что слагаемые третьего порядка $a_+ a^\dag_- a_+ b^+_3$ и $a_- a^\dag_+ a_- b^+_{-3}$ выражаются в создании однофотонных полей на частотах $\omega_{\pm 3} = \omega_0 \pm 3\delta\omega$. Обобщая, излучаемый свет может возникать на частотах $\omega_{\pm l}=\omega_0 \pm l\delta\omega$, где $l=2k+1,k = 0,1,2,..$. Среди всех членов в уравнении~(\ref{ut2}), дающих вклад в создание однофотонного поля на частотах $\omega_{\pm l}$, член низшего порядка состоит из $2k+2$ операторов: $2k+1$ $a$-операторов $a_\pm a^\dag_\mp a_\pm ... = (a_\pm a^\dag_\mp)^k a_\pm$ and один оператор $b_{\pm (2k+1)}^+$. 
+%The lowest order term in Supplementary Eq.~(\ref{ut2}) resulting in creation of the single-photon field at frequency $\omega_0 \pm l\delta\omega$, where $l=2k+1$, consists of $2k+2$ operators: $2k+1$ $a$-operators $a_\pm a^\dag_\mp a_\pm ... = (a_\pm a^\dag_\mp)^k a_\pm$ and one $b_{\pm (2k+1)}^+$. %
 
+Как было показано в работе \cite{Astafiev2010resonance}, атом в состоянии суперпозиции геренирует поле $V = \frac{\hbar\Gamma_1}{\mu}\langle s^-\rangle$. Обобщая это утверждение, мы можем записать выражение для однофотонного когеретного поля на частоте $\omega_{\pm (2k+1)}$:
+\begin{equation}
+	V_{\pm l} = \frac{\hbar\Gamma_1}{\mu}\langle b^-_{\pm (2k+1)}\rangle,
+	\label{Vl}
+\end{equation}
+где $\mu$ --- дипольный момент перехода, в нашем случае зависящий от величины емкостной связи атома с волноводом. Мы делаем замену $s^- \rightarrow b^-_{\pm (2k+1)}$ потому что поле в $b$-моде может быть непосредственно измерено ВАЦ или любым другим АЦП.
+
+%We start from an arbitrary single-photon state with two coherent fields $|\beta\rangle\otimes | \alpha_-\rangle\otimes |\alpha_+\rangle$ and the evolution of the single-photon field averaged out over the driving field degrees of fredom can be described as 
+%\begin{equation}
+%U_b(t,t') = \langle\alpha_-,\alpha_+| U(t,t') |\alpha_-\alpha_+\rangle. 
+%\end{equation}
+%We start from a atomic state (mapped on the single-photon field $|\beta\rangle$ as shown above) with two strong coherent driving fields with equal amplitudes $\Psi(t) = |\beta\rangle\otimes | \alpha\rangle_-\otimes |\alpha\rangle_+$, where $|\alpha| \gg 1$. 
+Для того, чтобы проанализировать эволюцию, в качестве начального состояния выберем $\Psi(t) = |\beta\rangle\otimes | n\rangle_-\otimes |n\rangle_+$, где атом находится в суперпозиции, описываемой однофотонным когерентным состоянием  $|\beta\rangle$, а поле находится в состояниях $|n\rangle_\pm$ (где $n \gg 1$) с одинаковым числом фотонов в каждой моде.
+Введем операторы:  
+\begin{subequations}
+	\begin{alignat}{2}
+		\hat{A}_{2k}^{+-} = &\Bigg\{
+		\begin{array}{lr}
+			(a^\dag_- a_+)^{-k} & : k < 0\\
+			(a^\dag_+ a_-)^k & : k \ge 0
+		\end{array}
+		&\quad
+		\hat{A}_{2k+1}^- = &\Bigg\{
+		\begin{array}{lr}
+			(a_- a^\dag_+)^{-k} a_- & : k < 0\\
+			(a_+ a^\dag_-)^k a_+ & : k \ge 0
+		\end{array}
+		\\
+		\hat{A}_{2k}^{-+} = &\Bigg\{
+		\begin{array}{lr}
+			(a_- a^\dag_+)^{-k} & : k < 0\\
+			(a_+ a^\dag_-)^k & : k \ge 0
+		\end{array}
+		&\quad
+		\hat{A}_{2k+1}^+ = &\Bigg\{
+		\begin{array}{lr}
+			(a^\dag_- a_+)^{-k} a^\dag_- & : k < 0\\
+			(a^\dag_+ a_-)^k a^\dag_+ & : k \ge 0 ,
+		\end{array}
+	\end{alignat}
+\end{subequations}
+которые удовлетворяют соотношениям $(\hat{A}^{+})_{2k+1}^\dag = \hat{A}^-_{2k+1}$, $(\hat{A}^{+-}_{2k})^\dag = \hat{A}^{+-}_{-2k}$, $(\hat{A}^{-+}_{2k})^\dag = \hat{A}^{-+}_{-2k}$. 
+Оператор
+\begin{equation}
+	\hat{A}^-_{2k+1} b^+_{2k+1} 
+	\label{Ap}
+\end{equation}
+создает единичный фотон на частоте $\omega_{2k+1}$ с минимально возможным числом фотонов, созданных или уничтоженных на частотах $\omega_\pm$.  
+В частности, $A^-_{2k+1} |n_-,n_+\rangle = \big(\frac{(n_- + k)!}{n_-!} \frac{n_+!}{(n_+ - k-1)!} \big)^{\frac{1}{2}} |n_- + k, n_+ - k-1\rangle$, где $k>0$. В случае одинаковых и достаточно больших $n\gg 2k+1$, $A^-_{2k+1}|n,n\rangle \approx n^{k+\frac{1}{2}} |n + k, n - k-1\rangle$. 
+Эволюция может быть упрощенно записана в следующей форме: 
+\begin{equation}
+	%U\Psi = \sum_{k=-\infty}^{\infty} \big[C^{+-}_{2k}\hat{A}_{2k}^{+-} b^-_0 b^+_{2k} + iC^{-}_{2k+1}\hat{A}_{2k+1}^{-} b^+_{2k+1} + C^{-+}_{2k}\hat{A}_{2k}^{-+} b^+_0 b^-_{2k} - iC^{+}_{2k+1}\hat{A}_{2k+1}^{+} b^-_{2k+1}\big] \Psi,
+	U(t',t)\Psi(t) \approx \sum_{k=-\infty}^{\infty} \big[\hat{A}_{2k}^{+-} C^{+-}_{2k} b^-_{k} b^+_{-k} + \hat{A}_{2k}^{-+} C^{-+}_{2k} b^+_{k} b^-_{-k} - \hat{A}_{2k+1}^{-} C^{-}_{2k+1} b^+_{2k+1} + \hat{A}_{2k+1}^{+} C^{+}_{2k+1} b^-_{2k+1}\big] \Psi(t),
+	%U_b = \sum_{k=-\infty}^{\infty} \big[C_{2k}\langle\hat{A}_{2k}^{+-}\rangle b^-_0 b^+_{2k} + C_{2k+1}\langle\hat{A}_{2k+1}^{-}\rangle b^+_{2k+1} + C_{2k}\langle\hat{A}_{2k}^{-+}\rangle b^+_0 b^-_{2k} + C_{2k+1}\langle\hat{A}_{2k+1}^{+}\rangle b^-_{2k+1}\big]
+	\label{uc}
+\end{equation}
+где коэффициенты $C_l$ зависят от начального состояния и вычисляются как сумма по всем возможным перестановкам комбинаций из операторов рождения и уничтожения ($a^{~}_{-} a^\dag_{-}$, $a^\dag_{-} a^{~}_{-}$, $a^\dag_{+} a^{~}_+$, $a^{~}_{+} a^\dag_{+}$ для двух фотонов, вовлеченных в многофотонный процесс рассеяния, $a^{~}_+ a^{\dag}_- a^{~}_- a^{\dag}_+$,$ a_+^\dag a^{~}_- a_-^\dag a^{~}_+$ и два других члена для 4 фотонов, и т.д.), которые не меняют ни частоту,  ни заселенность фотонных состояний. Предполагая, что $n \gg 2k$ и принимая во внимание соотношения $a\ket{n}=n \ket{n}$, $a^\dag\ket{n}\approx n \ket{n}$, мы приходим к выражению: 
+\begin{equation}
+	%\frac{\eta^l}{l!}\times \frac{l!}{k! (l-k)!}
+	%C_{l} = \frac{1}{\big(a_+^\dag a_+ \big)^{\frac{l}{2}}} \sum_{m=0}^\infty \frac{\bigg(i\eta\sqrt{a_+^\dag a_+}\bigg)^{l+2m}}{(l+2m)!} \frac{(l+2m)!}{m! (l+m)!} = \Bigg(\frac{i}{\sqrt{a^\dag_+ a_+}}\Bigg)^lJ_l \bigg(\eta \sqrt{a^\dag_+ a_+} t \bigg), 
+	C_{l} \approx \frac{1}{(\sqrt{n})^l} \sum_{m=0}^\infty \frac{(-1)^{j+m}(\eta  \sqrt{n})^{l+2m}}{(l+2m)!} \frac{(l+2m)!}{m! (l+m)!} = \frac{(-1)^j}{(\sqrt{n})^l} J_l (\eta\sqrt{n}), 
+\end{equation}
+где $j = \mod(l,2)$, $J_l$ обозначают бесселевские функции первого рода. 
+
+Если начальное состояние системы взять в виде $\Psi = |\beta,\alpha,\alpha\rangle$, где $\alpha$ действительно, то уравнение~(\ref{uc}) упрощается: 
+\begin{equation}
+	\begin{split}
+	\sum_{k=-\infty}^{\infty} \bigg[&\frac{(-1)^k}{\alpha^{2k}}J_{2k}(\theta)\Big(\hat{A}_{2k}^{+-} b^-_{-k} b^+_{k} +\hat{A}_{2k}^{-+} b^+_{-k} b^-_{k} \Big) + \\
+	&+ \frac{(-1)^k}{\alpha^{2k+1}}J_{2k+1}(\theta)\Big(\hat{A}_{2k+1}^{+} b^-_{2k+1} - \hat{A}_{2k+1}^{-} b^+_{2k+1}\Big)\bigg] \Psi
+	\end{split}
+\end{equation}
+и для случая $\Psi = |0,\alpha,\alpha\rangle$:
+\begin{equation}
+	\begin{split}
+	U\Psi \approx \sum_{k=-\infty}^{\infty} \bigg[&\frac{(-1)^k}{\alpha^{2k}}J_{2k}(\theta)\hat{A}_{2k}^{+-} |0\rangle_{2k} \otimes|\alpha,\alpha\rangle +\\
+	&+ \frac{(-1)^k}{\alpha^{2k+1}}J_{2k+1}(\theta)\hat{A}_{2k+1}^{-} |1\rangle_{2k+1} \otimes|\alpha,\alpha\rangle \bigg], 
+	\end{split}
+\end{equation}
+где $\theta = 2\eta\alpha$. 
+%\begin{equation}
+%U\Psi = \sum_{k=-\infty}^{\infty} \bigg[\frac{(-1)^k}{\alpha^{2k}}J_{2k}(\Omega t)\hat{A}_{2k}^{+-} e^{i2k\delta\omega t} b^-_{0} b^+_{2k}|0\rangle - \frac{(-1)^k}{\alpha^{2k+1}}J_{2k+1}(\Omega t)\hat{A}_{2k+1}^{-} b^+_{2k+1}|0\rangle \bigg] \Psi,
+%\end{equation}
+Принимая во внимание, что
+$b^+_{2k+1} = |1\rangle_{2(k+p)+1}\langle 0|_{2p}$, мы можем напрямую записать выражение для квантовомеханического среднего оператора рождения фотона на частоте $\omega_{2k+1}$
+\begin{equation}
+	\langle b^-_{2k+1}\rangle =  \sum_{p=-\infty}^{\infty} \frac{(-1)^{k+p+p}}{\alpha^{2(k+p)+1}}J_{2(k+p)+1}(\theta)J_{2p}(\theta)\langle \hat{A}_{2(k+p)+1}^{-}\hat{A}_{-2p}^{+-}\rangle. 
+\end{equation}
+Используя стандартные соотношения для функций Бесселя, это выражение упрощается: 
+\begin{equation}
+	\langle b^-_{2k+1}\rangle = \frac{(-1)^kJ_{2k+1}(2\theta)}{2\alpha^{2k+1}}\langle\hat{A}_{2k+1}^{-}\rangle.
+	\label{b22}
+\end{equation}
+Здесь было использовано следующее свойство: $\alpha^{-(2(k+p)+1)} \langle \hat{A}_{2(k+p)+1}^{-}\hat{A}_{-2p}^{+-} \rangle \approx\alpha^{-(2k+1)}\langle \hat{A}_{2k+1}^{-} \rangle$ for $\alpha \gg 1$.
+Учитывая, что $\langle \hat{A}^-_{2k+1} \rangle \approx \alpha^{2k+1}$, мы упрощаем выражение:
+\begin{equation}
+	\langle b^+_{2k+1}\rangle = \frac{(-1)^k}{2} J_{2k+1}(2\Omega \Delta t),  
+	\label{b2k1}
+\end{equation}
+где $\Omega \Delta t = \theta$. Окончательный ответ совпадает с  (\ref{sclass_spectr}).
+Амлитуда когерентно рассеиваемого в каждую моду напряжения может быть записана как:  
+\begin{equation}
+	V_{2k+1} = \frac{\hbar \Gamma_1}{\mu}\langle b_{2k+1} \rangle, 
+\end{equation}
+что соотвествует мощности 
+\begin{equation}
+	W_{2k+1} = \frac{V^2_{2k+1}}{2Z_0} , 
+\end{equation}
+где $Z_0$ --- волновой импеданс. Теперь мы рассчитаем энергию когерентной волны за каждый цикл, подставляя уравнение~(\ref{b2k1}) в~(\ref{Vl}) и производя интегрирование по времени $t$. Учитывая, что $\Gamma_1 = \frac{\hbar\omega \mu^2 Z_0}{\hbar^2}$ и $\int_0^\infty \langle b_{2k+1} \rangle^2 dt = \int_0^\infty e^{-\Gamma_1t} = \Gamma_1^{-1}$, мы находим числа фотонов, излучаемых суммарно в две половины волновода:
+\begin{equation}
+	%V_{\pm(2k+1)} = \frac{\hbar\Gamma_1}{\mu}\frac{(-1)^{k+1}}{2}\times J_{\pm(2k+1)}(2\Omega \Delta t).
+	\frac{E_{\pm(2k+1)}}{\hbar\omega} = \frac{J^2_{\pm(2k+1)}(2\Omega \Delta t)}{4}.
+\end{equation} 
+
+Несмотря на то, что аналитическое решение получено в приближении сильного драйва, его можно обобщить и на случай произвольных начальных состояний поля:
+\begin{equation}
+	\langle b^+_{2k+1}\rangle = D^-_{2k+1}\langle\hat{A}_{2k+1}^{-}\rangle,
+	%\langle b^-_{2k+1}\rangle = B^-_{2k+1}\langle\hat{A}_{2k+1}^{+}\rangle. 
+	\label{bg}
+\end{equation}
+где коэффициенты $D^-_{2k+1}$ зависят от амплитуд состояний поля. Также мы видим, что фотоны испускаются только на частотах $\omega_0 \pm (2k+1)\delta\omega$ с нечетными индексами $2k+1 > 0$. Создание такого однофотонного состояния требует уничтожения $k+1$ фотонов на частоте $\omega_+$ и создания $k$ фотонов на частоте $\omega_-$. 
+
+В данном разделе мы теоретически и экспериментально рассмотрели бесселевский аналог осцилляций Раби, возникающий в рассеянном поле на боковых частотах при волновом смешении двух синхронных последовательностей импульсов на одиночном искусственном атоме. Теперь мы обратимся к эффекту, называемому квантовым волновым смешением, который проявляется в несимметрии эластичного спектра при рассеянии последовательности бихроматических импульсов с задержкой. Его необычность в том, что он может наблюдаться только при рассеянии на одиночном атоме, поэтому ранее он не был обнаружен в рамках традиционной квантовой оптики на ансамблях двухуровневых систем. 
 \section{Введение задержки. Квантовое смешение волн}
 \section{Квантовое смешение волн на 3-уровневой системе}
 \section{Численный расчет импульсной динамики}
