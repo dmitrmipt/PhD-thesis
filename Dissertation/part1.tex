@@ -597,7 +597,7 @@ H = H_q + H_{int} = -\frac{\hbar \omega_q}{2}\hat{\sigma}_z+ \hbar\Omega\cos(\om
 Чтобы вывести основное квантовое уравнение, сначала воспользуемся приближением вращающейся волны, описанным в разделе \ref{sec: qubit}. Преобразуя $H$ при помощи унитарного преобразования $U=\exp(-i\omega_d\sz/2\hbar)$, имеем:
 \begin{equation}
 \label{eq: Hrot}
-H_{rwa}=UHU^\dagger-iU\dot{U}^\dag \approx \frac{\hbar}{2}\left[\begin{matrix}- \omega_d + \omega_q & \Omega e^{- i \varphi}\\\Omega e^{i \varphi}  & \omega_d - \omega_q\end{matrix}\right],
+H_{rwa}=UHU^\dagger-i\dot{U}U^\dag \approx \frac{\hbar}{2}\left[\begin{matrix}- \omega_d + \omega_q & \Omega e^{- i \varphi}\\\Omega e^{i \varphi}  & \omega_d - \omega_q\end{matrix}\right],
 \end{equation}
 где были отброшены быстро осциллирующие члены $\Omega e^{\pm i \varphi} e^{\pm2 i \omega_d t}$ в недиагоальных слагаемых. Используя этот гамильтониан, можно записать основное квантовое уравнение, представляющее собой уравнение Лиувилля-фон Неймана для эволюции квантовой системы, описывающейся оператором плотности и линбладовский член, характеризующий взаимодействие с внешней средой:
 \begin{equation}

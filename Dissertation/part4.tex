@@ -401,35 +401,45 @@ r = \sqrt{\Gamma^{12}_1/\Gamma^{01}_1} \approx \sqrt{5}.
 \end{equation} 
 Гамильтониан во вращающейся системе запишем в виде:
 \begin{equation}
-H_3 = i\left(
+H_3 = \left(
 \begin{array}{ccc}
-0 & -\frac{r \Omega }{2} & 0 \\
-\frac{r \Omega }{2} & 0 & -\frac{\Omega }{2} \\
-0 & \frac{\Omega }{2} & 0 \\
+0 & \frac{1}{2} e^{i \phi } r \Omega  & 0 \\
+\frac{1}{2} e^{-i \phi } r \Omega  & 0 & \frac{1}{2} e^{i \phi } \Omega  \\
+0 & \frac{1}{2} e^{-i \phi } \Omega  & 0 \\
 \end{array}
 \right),
 \end{equation}
-и соответствующий ему оператор эволюции равен:
+и соответствующий ему оператор эволюции $U$ равен:
 \begin{equation} 
- U = R^{-2}\left(
-\begin{array}{ccc}
-\left(R^2-1\right) \cos\frac{R \theta }{2}+1 & -R \sqrt{R^2-1} \sin \frac{R \theta }{2} & 2 \sqrt{R^2-1} \sin ^2\frac{R \theta }{4} \\
-R \sqrt{R^2-1} \sin \frac{R \theta }{2} & R^2 \cos \frac{R \theta }{2} & -R \sin \frac{R \theta }{2} \\
-2 \sqrt{R^2-1} \sin ^2\frac{R \theta }{4} & R \sin \frac{R \theta }{2} & R^2+\cos \frac{R \theta }{2}-1 \\
-\end{array}
-\right),
+ R^{-2}
+ \left(
+ \begin{array}{ccc}
+ \left(R^2-1\right) \cos \frac{\theta }{2}+1 & -i R \sqrt{R^2-1} e^{i \phi } \sin \frac{\theta }{2} & \sqrt{R^2-1} e^{2 i \phi } \left(\cos
+ \frac{\theta }{2}-1\right) \\
+ -i R \sqrt{R^2-1} e^{-i \phi } \sin \frac{\theta }{2} & R^2 \cos \frac{\theta }{2} & -i R e^{i \phi } \sin \frac{\theta }{2}
+ \\
+ \sqrt{R^2-1} e^{-2 i \phi } \left(\cos \frac{\theta }{2}-1\right) & -i R e^{-i \phi } \sin \frac{\theta }{2} & \cos \frac{\theta
+ }{2}+R^2-1 \\
+ \end{array}
+ \right),
 \end{equation}
-где введены обозначения $R = \sqrt{r^2 + 1}$ и $\theta = \Omega \Delta t$. 
-По аналогии с \eqref{u1} мы можем записать полученный оператор в виде, визуализирующем процессы перехода. Для этого введем операторы $c^\dag$, $c$ действующие согласно правилам: $c^\dag |0\rangle = |1\rangle$, $c^\dag |1\rangle = |2\rangle$, $c^\dag |2\rangle = 0$, $c |2\rangle = |1\rangle$, $c |1\rangle = |0\rangle$, $c |0\rangle = 0$. Тогда из матричного представления эволюции переходим к операторному представлению:
+где введены обозначения $R = \sqrt{r^2 + 1}$ и $\theta = R\Omega \Delta t$. 
+По аналогии с \eqref{u1} мы можем записать полученный оператор в виде, визуализирующем процессы перехода.~Для этого введем операторы понижения в трехуровневой системе: $\hat{e} = \ket{0}\bra{1}\!,\:\hat{f} = \ket{1}\bra{2}$, которым соответствуют также операторы повышения $\hat{e}^\dag, \hat{f}^\dag$. Операторы рождения и уничтожения возбуждений в моде внешнего поля обозначим стандартно как $a^\dag, a$. Зафиксируем фазу драйва $\phi = -\pi/2$, тогда при помощи введенных операторов запишем оператор эволюции в виде:
 \begin{equation}
 	\begin{split}
 	U = R^{-2}\Big[
-	\left(R^2+\cos \frac{R \theta }{2}-1\right)c_0 &+ R^2 \cos \frac{R \theta }{2} c_1 + \left(\left(R^2-1\right) \cos\frac{R \theta }{2}+1\right) c_2 + \\
-	&+ R \sin \frac{R \theta }{2} \left(a^\dag c-ac^\dag\right)
-	\Big]
+	&\left(R^2+\cos \frac{\theta }{2}-1\right)\hat{e}\hat{e}^\dag + R^2 \cos \frac{\theta }{2} \hat{f}\hat{f}^\dag + \left(\left(R^2-1\right) \cos\frac{\theta }{2}+1\right) \hat{f}^\dag\hat{f} + \\
+	+ &R \sin \frac{R \theta }{2} \left(a^\dag \hat{e}-a\hat{e}^\dag\right) + R \sqrt{R^2-1} \sin \frac{\theta }{2}\left(a^\dag \hat{f}-a\hat{f}^\dag\right) + \\
+	+ &\sqrt{R^2-1} \left(\cos \frac{\theta }{2}-1\right)\left((a^\dagger)^2\hat{e}\hat{f} + a^2\hat{f}^\dag \hat{e}^\dag\right)
+	\Big].
 	\end{split}
 \end{equation}
- получаем  %In reality, there are some coefficients like $c^\dagger\ket{1} = c_2\ket{2}$, which could be calculated numerically as transition matrix elements of corresponding states, but we omit them for the sake of simplicity.%
+Отметим, что помимо однофотонных процессов, в системе возникли и двухфотонные переходы, где два кванта поля $a$ могут возбудить систему на уровень $\ket{2}$.
+Нашей целью является расчет среднего поля в результате эволюции трехуровневой системы под действием двух последовательных импульсов на частотах $\omega_-, \omega_+$, который может быть записан как:
+\begin{equation}
+\braket{\hat{e}_p + \hat{f}_p} = \bra{\psi_0}U^\dagger_-U^\dagger_+(\hat{e}_p + \hat{f}_p)U_+U_-\ket{\psi_0}.
+\end{equation}
+Здесь мы ввели операторы $U_-(\theta_-)$ и $U_+(\theta_+)$, которые получаются из оператора $U$ при замене $\hat{e} \rightarrow \hat{e}_\pm = \hat{e}e^{\mp i \delta t}$ и аналогичной замене для оператора $\hat{f}$%In reality, there are some coefficients like $c^\dagger\ket{1} = c_2\ket{2}$, which could be calculated numerically as transition matrix elements of corresponding states, but we omit them for the sake of simplicity.%
 In the case of the same pulse sequence the first pulse applied at $\omega_-$ during time $[t',t]$ is followed by another pulse $\omega_+$ during $[t'',t']$0. 
 \section{Численный расчет импульсной динамики}
 
