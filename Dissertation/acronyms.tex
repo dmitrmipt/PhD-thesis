@@ -1,14 +1,14 @@
 \chapter*{Список сокращений и условных обозначений}             % Заголовок
 \addcontentsline{toc}{chapter}{Список сокращений и условных обозначений}  % Добавляем его в оглавление
 \noindent
-%\begin{longtabu} to \dimexpr \textwidth-5\tabcolsep {r X}
-\begin{tabu} to\textwidth{X[r$] X[1] }
+\begin{longtabu} to \dimexpr \textwidth-5\tabcolsep {r X}
+%\begin{longtabu} to\textwidth{X[r] X[1] }
 % Жирное начертание для математических символов может иметь
 % дополнительный смысл, поэтому они приводятся как в тексте
 % диссертации
 T & температура \\
 T_c & критическая темература сверхпроводящего перехода \\
-\Gamma_1 & время излучательной релаксации \\
+\Gamma^{(c,e)}_1 & время излучательной релаксации (верхний индекс указывает линию, в которую излучает) \\
 \Gamma_1^{nr} & время безызлучательной релаксации \\
 
 % $\begin{rcases}
@@ -61,27 +61,29 @@ T_c & критическая темература сверхпроводящег
 % $\omega$ & частота падающей волны\\
 
 \textbf{SIS} & Superconductor-Insulator-Superconductor, сверхпроводник-изолятор-сверхпроводник \\
-\textbf{(rf-)SQUID}, & (radio-frequency) Superconducting QUantum Interference Device \\
+\textbf{JJ} & Josephson Junction, переход Джозефсона \\
+\textbf{сQED} & Квантовая электродинамика на основе электрических цепей \\
+\textbf{СКЦ} & Сверхпроводящие квантовые цепи \\
+\textbf{СВЧ} & Сверх-высокочастотный \\
 \textbf{(вч-)СКВИД} & (высокочастотный) сверхпроводящий квантовый интерферометр \\
-\textbf{RCSJ} & Resistively and Capaciticely Shunted Junction, Резистивно и ёмкостно шунтированный переход \\
-\textbf{СКЦ} & сверхпроводящая квантовая цепь (также в мн.ч.) \\
-\textbf{DDA} & discrete dipole approximation, приближение дискретиных диполей\\
-\textbf{FDFD} & finite difference frequency domain, метод конечных
-  разностей в~частотной области\\
-\textbf{FDTD} & finite difference time domain, метод конечных
-разностей во временной области\\
-\textbf{FEM} & finite element method,  метод конечных элементов\\
-\textbf{FIT} & finite integration technique, метод конечных интегралов\\
-\textbf{FMM} & fast multipole method, быстрый метод многополюсника\\
-\textbf{FVTD} & finite volume time-domain, метод конечных объёмов
-во~временной области\\
-\textbf{MLFMA} & multilevel fast multipole algorithm, многоуровневый
-быстрый алгоритм многополюсника\\
-\textbf{MoM} & method of moments, метод моментов\\
-\textbf{MSTM} & multiple sphere T-Matrix, метод Т-матриц для множества сфер\\
-\textbf{PSTD} & pseudospectral time domain method, псевдоспектральный
-метод во временной области \\
-\textbf{TLM} & transmission line matrix method, метод матриц линий
-передач\\
-\end{tabu}
+\textbf{RCSJ} & Модель резистивно и емкостно шунтированного перехода \\
+\textbf{ВАХ} & Вольт-амперная характеристика \\
+\textbf{IPA} & Изопропанол \\
+\textbf{NMP} & Несимметричный метил-пиролидон \\
+\textbf{RCA-1} & Стандартный раствор NH$_3$, Н$_2$О$_2$ в Н$_2$O, используемый для первичной очистки кремниевых пластин \\
+\textbf{СЭМ} & Сканирующий туннельный микроскоп \\
+\textbf{SMP} & Тип высокочастотных коаксиальных разъемов \\ 
+\textbf{Still} & Фланец криостата с температурой порядка 700 мК \\
+\textbf{ОСШ} & Отношение <<сигнал-шум>> \\
+\textbf{ПЧ} & Промежуточная частота \\
+\textbf{LO} & Несущая частота \\
+\textbf{АЦП} & Аналогово-цифровой преобразователь \\
+\textbf{СА} & Спектральный анализатор \\
+\textbf{ВАЦ} & Векторный анализатор цепей \\
+\textbf{RBW} & Полоса разрешения спектрального анализатора \\
+\textbf{I} & компонента поля, находящаяся в фазе с некоторым опорным сигналом \\
+\textbf{Q} & компонента поля, перпендикулярная некоторому опорному сигналу \\
+\textbf{ГИПФ} & Генератор импульсов произвольной формы \\
+\textbf{QuTiP} & Quantum Toolbox in Python --- библиотека для проведения квантовомеханических расчетов на языке программирования \verb|Python.
+\end{longtabu}
 \addtocounter{table}{-1}% Нужно откатить на единицу счетчик номеров таблиц, так как предыдующая таблица сделана для удобства представления информации по ГОСТ
